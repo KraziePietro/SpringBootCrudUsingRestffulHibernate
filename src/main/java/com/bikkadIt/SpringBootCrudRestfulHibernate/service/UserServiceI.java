@@ -10,9 +10,6 @@ public interface UserServiceI {
 	
 	public List<User>  getAllUsersService();
 	
-	public  User loginCheck(User user);
-	
-	public User  editUser(int uid);
 	
 	public User update(User user);
 	
